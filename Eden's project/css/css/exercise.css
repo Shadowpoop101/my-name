@@ -1,0 +1,14 @@
+#green{
+    color: green;
+}
+
+.blue{
+    color:blue
+}
+
+#boxbox {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 200px;
+}

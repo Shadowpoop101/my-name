@@ -1,0 +1,66 @@
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+        transform: rotate(-80deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+.blink-colour {
+    animation-name: blink-colour-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-colour-animation {
+        0%{
+            color: #FFFF00;
+        }
+
+        8%{
+            color: #80FF00;
+        }
+
+        16%{
+            color: #00FF00;
+        }
+
+        24%{
+            color: #00FF80;
+        }
+
+        32%{
+            color: #00FFFF;
+        }
+        40%{
+            color: #0080FF;
+        }
+        48%{
+            color: #0000FF;
+        }
+        56%{
+            color: #8000FF;
+        }
+        64%{
+            color: #FF00FF;
+        }
+        72%{
+            color: #FF0080;
+        }
+        80%{
+            color:#FF0000 ;
+        }
+        100%{
+            color: #FF8000;
+        }
+}
