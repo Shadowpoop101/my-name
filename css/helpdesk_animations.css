@@ -1,0 +1,15 @@
+.spiral {
+    animation-name: spiral-animation;
+    animation-duration: 0.10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes spiral-animation {
+    from {
+        transform: rotate(80deg)
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}

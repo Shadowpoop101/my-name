@@ -1,0 +1,40 @@
+a {
+    color: blue;
+}
+
+body {
+    background-color: black;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    color: blue;
+    font-size: 2vw;
+    position: absolute;
+    background-color:black;
+    padding: 5px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+;
+}
+
+.profile {
+    text-align: center;
+}
+
+.illusion {
+    text-align: center;
+}
+
+.active{
+    background-color: yellow;
+}
+
